@@ -53,7 +53,7 @@ Open an **elevated terminal** and SSH into the virtual machine using its public 
 ssh <azure_user>@<public_ip_address>
 ```
 
-> ✅ Confirm you're on the correct machine by verifying the hostname displayed matches the expected VM hostname.
+> Confirm you're on the correct machine by verifying the hostname displayed matches the expected VM hostname.
 
 ---
 
@@ -102,7 +102,7 @@ cat /etc/redhat-release
 Red Hat Enterprise Linux release 9.7
 ```
 
-> ⚠️ Always note both the **major** (e.g., `9`) and **minor** (e.g., `7`) version numbers before proceeding.
+> Always note both the **major** (e.g., `9`) and **minor** (e.g., `7`) version numbers before proceeding.
 
 ---
 
@@ -144,7 +144,7 @@ The output is organized in three columns:
 | **New Version** | The version number the package will be updated to |
 | **Repository** | The source repository providing the update |
 
-> ℹ️ This step only **checks** — it does not install or modify anything.
+> This step only **checks** — it does not install or modify anything.
 
 ---
 
@@ -174,7 +174,7 @@ Before installation begins, DNF will display a **transaction summary**, which in
 3. **Install/Upgrade** — New packages are installed and existing ones are upgraded
 4. **Cleanup** — Old package versions are removed to free up disk space
 
-> ⏳ This process can take time. **Do not interrupt it.** Cancelling mid-update can corrupt packages and destabilize the system.
+> This process can take time. **Do not interrupt it.** Cancelling mid-update can corrupt packages and destabilize the system.
 
 ---
 
@@ -218,7 +218,7 @@ Confirm the version matches the latest installed kernel from the update.
 
 ## Best Practices & Warnings
 
-| ⚠️ Warning | Recommendation |
+| Warning | Recommendation |
 |-----------|----------------|
 | Do not update production systems without prior testing | Test all updates in a **staging/test environment** first |
 | Package updates may disrupt running services | Review the package list and assess impact before applying |
