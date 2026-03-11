@@ -3,6 +3,10 @@
 > **Platform:** Microsoft Azure | **OS:** Red Hat Enterprise Linux 9.7  
 > **Privilege Required:** Root
 
+## Youtube
+
+https://www.youtube.com/watch?v=Rc5Ky8H0kx0
+
 ---
 
 ## Table of Contents
